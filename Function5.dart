@@ -1,7 +1,8 @@
-void main(){
-  tampilkanangka(5);
+void main() {
+  cetakNilai(8);
 }
-tampilkanangka(n1, {s1=45}){
-  print(n1);
-  print(s1);
+
+void cetakNilai(angka1, [angka2 = 30]) {
+  print("Angka pertama: $angka1");
+  print("Angka kedua: $angka2");
 }
